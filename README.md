@@ -47,7 +47,7 @@ INTO #JobTypesPriority
 FROM job_types
 WHERE name = 'キャビンアテンダント'
 ```
-Temporary tables are particularly useful when you have a large number of records in a table and you repeatedly need to interact with a small subset of those records. In such cases instead of filtering the data again and again to fetch the subset, you can filter the data once and store it in a temporary table. You can then execute your queries on that temporary table.
+Temporary tables are very useful when database have a large number of records in a table and query need to repeatedly interact with a small subset of those records. In such cases instead of filtering the data again and again to fetch the subset, you can filter the data once and store it in a temporary table. You can then execute your queries on that temporary table.
 
 ## Time Taken
 Time taken to complete this is approximately around 2 days.
