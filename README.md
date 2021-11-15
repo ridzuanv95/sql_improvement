@@ -1,5 +1,5 @@
 
-# SQL improvement logic test
+# SQL Query Improvement Test
 Based on the question given, a few improvement can be done to make query much more faster : 
 1. Implementing partial or multicolumn indexes for each column that we used to search and filter on each table.
 
