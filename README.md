@@ -50,4 +50,4 @@ WHERE name = 'キャビンアテンダント'
 Temporary tables are very useful when database have a large number of records in a table and query need to repeatedly interact with a small subset of those records. In such cases instead of filtering the data again and again to fetch the subset, you can filter the data once and store it in a temporary table. You can then execute your queries on that temporary table.
 
 ## Time Taken
-Time taken to complete this is approximately around 2 days.
+Time taken to complete this is around 2 days.
